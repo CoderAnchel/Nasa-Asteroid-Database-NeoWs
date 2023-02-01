@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #282c34;
+  background: #24272B;
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -39,6 +39,34 @@ body {
 
 .App-link {
   color: #61dafb;
+}
+
+.tsd {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.asteroids-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .tsd {
+    display: block;
+  }
+
+  .large_tsd {
+    display: none;
+  }
 }
 
 @keyframes App-logo-spin {
