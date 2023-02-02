@@ -7,9 +7,9 @@ const Asteroid = (props) => {
   let peligrosidad = props.peligro;
 
   const evaluacion = () => {
-    if (peligrosidad == true) {
+    if (peligrosidad === true) {
       return "card-container-red"
-    } else if (peligrosidad == false) {
+    } else if (peligrosidad === false) {
       return "card-container-green"
     }
   }
