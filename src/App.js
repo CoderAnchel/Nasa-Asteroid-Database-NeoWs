@@ -43,8 +43,11 @@ function App() {
         <h1 className='title'>Asteroid Database</h1>
       </div>
 
-      <button onClick={updatePage}>Next</button>
-      <button onClick={returnPage}>Previous</button>
+    <div className='buttons'>
+      <button className='button-30' onClick={returnPage}>Previous</button>
+      <button className='button-30' onClick={updatePage}>Next</button>
+    </div>
+
       <div className='container'>
         <div className='asteroids-container'>
           {data.map(asteroid => {
@@ -62,6 +65,12 @@ function App() {
           })}
         </div>
       </div>
+
+      <div className='buttons'>
+      <button className='button-30' onClick={returnPage}>Previous</button>
+      <button className='button-30' onClick={updatePage}>Next</button>
+    </div>
+
     </div>
   );
 }
