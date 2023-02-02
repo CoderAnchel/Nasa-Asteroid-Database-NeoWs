@@ -38,7 +38,10 @@ function App() {
 
   return (
     <div className='app'>
-      <h1>Asteroids</h1>
+      <div className='landing'>
+        <span className='ticket'>Nasa Asteroids - NeoWs</span>
+        <h1 className='title'>Asteroid Database</h1>
+      </div>
 
       <button onClick={updatePage}>Next</button>
       <button onClick={returnPage}>Previous</button>

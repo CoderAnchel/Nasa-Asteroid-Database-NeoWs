@@ -59,6 +59,46 @@ body {
   align-items: center;
 }
 
+.nasa_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nasa_logo h2 {
+  font-size: 30px;
+}
+
+.nasa_img {
+  width: 100px;
+  padding: 10px;
+}
+
+.coderanchel {
+  font-size: 30px;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 180px;
+  padding: 20px;
+  font-family: 'esa';
+}
+
+.landing h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.ticket {
+  background: #ed2430;
+  display: block;
+  width: 170px;
+}
+
+
 @media (max-width: 600px) {
   .tsd {
     display: block;
