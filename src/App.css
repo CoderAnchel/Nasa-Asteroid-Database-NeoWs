@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'esa';
+  src: url('../assets/fonts/NotesESAbold.woff');
+}
+
+body {
+  background: #24272B;
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+.navbar {
+  font-family: 'esa';
+  background: #083247;
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+  border: 2px solid #335e6f;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  padding: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tsd {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.asteroids-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nasa_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nasa_logo h2 {
+  font-size: 30px;
+}
+
+.nasa_img {
+  width: 100px;
+  padding: 10px;
+}
+
+.coderanchel {
+  font-size: 30px;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 180px;
+  padding: 20px;
+  font-family: 'esa';
+}
+
+.landing h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.ticket {
+  background: #ed2430;
+  display: block;
+  width: 170px;
+  padding: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "esa",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.footer {
+  font-family: 'esa';
+  background: #083247;
+  margin: 0;
+  color: #ffffff;
+  border: 2px solid #335e6f;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.f1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.f1 span a{
+  text-decoration: none;
+  color: #D6D6E7
+}
+
+.mit {
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.code {
+  font-size: 25px;
+  text-decoration: none;
+  color: #D6D6E7
+}
+
+.f2 {
+  list-style: none;
+}
+.f2 a{
+  color: #D6D6E7;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.coderanchel a {
+  color: #eeeef5;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .f1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .f1 span a{
+    text-decoration: none;
+    color: #D6D6E7
+  }
+
+  .mit {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+
+  .code {
+    font-size: 20px;
+    text-decoration: none;
+    color: #D6D6E7
+  }
+
+  .f2 {
+    list-style: none;
+  }
+  .f2 a{
+    color: #D6D6E7;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .tsd {
+    display: block;
+  }
+
+  .large_tsd {
+    display: none;
+  }
+
+  .landing h1{
+    font-size: 37px;
+  }
+
+  .nasa_logo h2 {
+    font-size: 20px;
+  }
+
+  .nasa_img {
+    width: 70px;
+    padding: 10px;
+  }
+
+  .coderanchel {
+    font-size: 20px;
+  }
+}
+
