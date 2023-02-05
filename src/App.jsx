@@ -54,21 +54,6 @@ function App() {
         <span className="ticket">Nasa Asteroids - NeoWs</span>
         <h1 className="title">Asteroid Database</h1>
       </div>
-      {data.map((asteroid) => {
-          return (
-            <Routes>
-              <Route path={asteroid.name_limited} element={<Details
-                id={asteroid.id}
-                name={asteroid.name_limited}
-                fullName={asteroid.name}
-                magnitud={asteroid.absolute_magnitude_h}
-                firstdata={asteroid.orbital_data.first_observation_date}
-                lastdata={asteroid.orbital_data.last_observation_date}
-                peligro={asteroid.is_potentially_hazardous_asteroid}
-              />}/>
-            </Routes>
-          );
-      })}
 
       <div className="buttons">
         <button className="button-30" onClick={returnPage}>
