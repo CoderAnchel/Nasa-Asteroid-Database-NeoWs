@@ -27,7 +27,6 @@ const Asteroid = (props) => {
           <h4>
             {props.firstdata} - {props.lastdata}
           </h4>
-          <span className="button">{props.name} full data</span>
         </div>
       </div>
     </div>

@@ -10,7 +10,10 @@ const NavBar = () => {
         <img className='nasa_img' src={nasa} alt="" />
         <h2>{api}</h2>
       </div>
+      <div>
         <span className='coderanchel'><a href="https://github.com/CoderAnchel">@CoderAnchel</a></span>
+      </div>
+
     </div>
   )
 }
