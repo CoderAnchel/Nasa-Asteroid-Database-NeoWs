@@ -26,7 +26,7 @@ function App() {
 
   useEffect(() => {
     fetchData();
-  });
+  }, []);
 
   const updatePage = async () => {
     const nextPage = await selectors.next;
